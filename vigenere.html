@@ -2,9 +2,9 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Cifrado César</title>
-        <link href="estilos.css" rel="stylesheet" type="text/css">
-        <script src="cesar.js"></script>
+        <title>Cifrado Vigenere</title>
+        <link href="estiloss.css" rel="stylesheet" type="text/css">
+        <script src="vigenere.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
 <body>
@@ -30,19 +30,20 @@
         <a class="nav-link" href="Index.html">César<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="vigenere.html">Próximamente</a>
+        <a class="nav-link" href="vigenere.html">Vigenere</a>
       </li>
     </ul>
   </div>
 </nav>
-<div class="card" style="width: 32rem;" >
-  <img class="card-img-top" src="cifrado2.jpg" alt="Card image cap">
-  <div class="card-body" align="center">
-    <h5 class="card-title">Algoritmo Vigenere</h5>
-    <p class="card-text">El cifrado Vigenère es un cifrado basado en diferentes series de caracteres o letras del cifrado César formando estos caracteres una tabla, llamada tabla de Vigenère, que se usa como clave. El cifrado de Vigenère es un cifrado polialfabético y de sustitución.</p>
-    <p>Realizado por: Valencia Uriarte Marco Antonio</p>
-      <p>Grupo: 5IV8.</p>
-    <a href="index.html" class="btn btn-primary">Ir al algoritmo césar</a>
-  </div>
+<h1>Cifrado Vigenere:</h1>
+<form class="formVigenere">
+<span class="h1v">Frase a encriptar o desencriptar:</span>
+<textarea class="textareaV" id="InputText" rows="5"></textarea> 
+<span class="h1v">Pin</span> 
+<input class="TextV" id="PassWord" type="text" /> 
+<input class="ButtonV" id="Encrypt" onclick="RebuildString(Encriptar(true))" type="button" value="Encriptar" /> 
+<input class="ButtonV" id="UnEncrypt" onclick="RebuildString(Encriptar(false))" type="button" value="Desencriptar" /> 
+<span class="h1v">Cifrado o Descifrado</span>
+<textarea class="textareaV" id="Result" rows="5"></textarea></form>
 </body> 
 </html>

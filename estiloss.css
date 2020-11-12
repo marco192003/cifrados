@@ -1,0 +1,51 @@
+  body {
+    background: #2F7336;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #AA3A38, #2F7336);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #AA3A38, #2F7336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.5rem;
+      color: black; 
+      font-family: Arial, Helvetica, sans-serif;
+  }
+h1{
+    color: white;
+}
+
+.h1v
+{
+    font-size: 16px;
+}
+.formVigenere{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #56FF09;
+}
+.textareaV
+{
+    width: 100%;
+    height: 150px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    border: 2px solid #875;
+    border-radius: 4px;
+    resize: none;
+}
+.TextV
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    border-radius: 4px;
+}
+.ButtonV
+{
+width: 100%;
+    background-color: #399FF8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
